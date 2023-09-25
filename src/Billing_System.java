@@ -20,8 +20,8 @@ public class Billing_System {
 
         float discountedPrice = totalPrice - ( ((float) 10 /100) * totalPrice );
 
-        float vatappliedPrice = discountedPrice - ( ((float) 13/100) * discountedPrice );
+        float vatPrice = discountedPrice - ( ((float) 13/100) * discountedPrice );
 
-        System.out.println("Your final Price is Rs : " + vatappliedPrice);
+        System.out.println("Your final Price is Rs : " + vatPrice);
     }
 }
