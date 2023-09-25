@@ -10,9 +10,9 @@ public class Billing_System {
         float totalPrice = 0;
 
         for(int i = 1; i<=items; i++){
-            System.out.println("Enter the price: ");
+            System.out.println("Enter the price of the product: ");
             float SingleItemPrice = sc.nextInt();
-            System.out.println("Enter the quantity " + i);
+            System.out.println("Enter the number of quantity " + i);
             float SingleItemQuantity = sc.nextFloat();
 
             totalPrice = totalPrice + (SingleItemPrice * SingleItemQuantity);

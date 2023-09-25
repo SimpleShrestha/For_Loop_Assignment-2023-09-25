@@ -5,9 +5,9 @@ public class Log_In {
         Scanner sc = new Scanner(System.in);
 
         for (int i = 1; i <= 5; i++) {
-            System.out.println("Enter Username");
+            System.out.println("Enter Your Username");
             String Username = sc.next();
-            System.out.println("Enter Password");
+            System.out.println("Enter Your Password");
             String Password = sc.next();
 
             if (Password.equals("Simple@12345") && Username.equals("Simple78")) {
